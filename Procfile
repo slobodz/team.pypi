@@ -1,1 +1,1 @@
-web: uwsgi wsgi
+web: --http :9090 --wsgi-file wsgi
