@@ -7,7 +7,7 @@ verify_ssl = true
 [packages]
 
 passlib = "*"
-uwsgi = "*"
+gunicorn = "*"
 pypiserver = "*"
 
 

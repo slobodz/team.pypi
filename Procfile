@@ -1,1 +1,1 @@
-web: --http :9090 --wsgi-file wsgi
+web: gunicorn -w4 'pypiserver:app("~/packages")'
