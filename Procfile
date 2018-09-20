@@ -1,1 +1,1 @@
-web: gunicorn -w4 'pypiserver:app(root="~/packages")'
+web: gunicorn -w4 'pypiserver:app(root="./packages")'
