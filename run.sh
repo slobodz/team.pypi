@@ -1,3 +1,3 @@
 #!/bin/bash
-mkdir -p packages
+mkdir -p ./packages
 gunicorn -w4 'pypiserver:app(root="./packages")'
